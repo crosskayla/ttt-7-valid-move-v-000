@@ -14,4 +14,4 @@ def position_taken?(board, move)
 end
 
 board = [" ", "X"]
-print position_taken?(board, 1)
+print position_taken?(board, 0)
