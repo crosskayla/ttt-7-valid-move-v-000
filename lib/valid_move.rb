@@ -7,11 +7,11 @@
 
 def position_taken?(board, move)
   if board[move] = "" || board[move] == " " || board[move] == nil
-    return true
     print "that's a valid move!"
+    return true
   else
-    return false
     print "that's not a valid move"
+    return false
   end
 end
 
