@@ -6,10 +6,10 @@
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 
 def position_taken?(board, move)
-  if board[move] = "" || board[move] == " " || board[move] == nil
+  if board[move] == "" || board[move] == " " || board[move] == nil
     print "that's a valid move!"
     return true
-  else
+  elsif board[move] == 
     print "that's not a valid move"
     return false
   end
