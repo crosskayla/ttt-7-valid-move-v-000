@@ -6,7 +6,7 @@ def valid_move?(board, move)
   elsif move >= 0 && move <= board.length
     print board.length
   else
-    "Nada"
+    print "Nada"
   end
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
