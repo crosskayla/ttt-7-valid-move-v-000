@@ -1,8 +1,11 @@
 # code your #valid_move? method here
 
-#def valid_move?(board, move)
+def valid_move?(board, move)
+  if position_taken?(board, move)
+    puts "There's already something there. Please choose a free space."
 
-#end
+
+end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 
 def position_taken?(board, move)
@@ -12,6 +15,3 @@ def position_taken?(board, move)
     return false
   end
 end
-
-board = [" ", "X"]
-print position_taken?(board, 0)
