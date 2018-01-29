@@ -17,3 +17,4 @@ end
 
 board = [" ", "X"]
 position_taken?(board, 1)
+print position_taken?(board, 1)
