@@ -19,4 +19,4 @@ end
 
 board = [" ", " ", "X", " ", " ", " ", " ", "O", " "]
 
-valid_move(board, 1)
+valid_move?(board, 1)
