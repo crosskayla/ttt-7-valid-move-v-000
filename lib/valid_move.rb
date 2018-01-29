@@ -3,7 +3,7 @@
 def valid_move?(board, move)
   if position_taken?(board, move)
     puts "There's already something there. Please choose a free space."
-  else
+  elsif 
 
 
 
