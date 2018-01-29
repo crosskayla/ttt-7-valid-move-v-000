@@ -3,6 +3,8 @@
 def valid_move?(board, move)
   if position_taken?(board, move)
     puts "There's already something there. Please choose a free space."
+  else
+
 
 
 end
@@ -10,8 +12,8 @@ end
 
 def position_taken?(board, move)
   if board[move] == "" || board[move] == " " || board[move] == nil
-    return true
-  elsif board[move] == "X" || board[move] == "O"
     return false
+  elsif board[move] == "X" || board[move] == "O"
+    return true
   end
 end
