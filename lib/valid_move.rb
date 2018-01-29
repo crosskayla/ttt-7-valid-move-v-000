@@ -9,6 +9,7 @@ def position_taken?(board, move)
   if board[move] = "" || board[move] == " " || board[move] == nil
     return true
   else return false
+  end
 end
 
 board = [" "]
