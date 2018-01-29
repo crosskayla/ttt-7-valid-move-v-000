@@ -16,3 +16,7 @@ def position_taken?(board, move)
     return true
   end
 end
+
+board = [" ", " ", "X", " ", " ", " ", " ", "O", " "]
+
+valid_move()
