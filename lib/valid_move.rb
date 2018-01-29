@@ -12,4 +12,4 @@ def position_taken?(board, move)
 end
 
 board = [" "]
-position_taken(board, 0)
+position_taken?(board, 0)
