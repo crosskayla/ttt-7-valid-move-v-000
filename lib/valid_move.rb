@@ -16,4 +16,4 @@ def position_taken?(board, move)
 end
 
 board = [" ", "X"]
-position_taken?(board, 2)
+position_taken?(board, 1)
