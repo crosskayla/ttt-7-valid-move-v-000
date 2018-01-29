@@ -5,8 +5,6 @@ def valid_move?(board, move)
     puts "There's already something there. Please choose a free space."
   elsif move >= 0 && move <= (board.length-1)
     print board.length
-  else
-    print "Nada"
   end
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
